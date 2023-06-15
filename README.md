@@ -4,7 +4,7 @@ _Adapted from https://docs.pinecone.io/docs/audio-search_
 
 **Installs:**
 ```bash
-conda install -c huggingface -c conda-forge datasets numpy tqdm python-annoy
+conda install -c huggingface -c conda-forge datasets numpy tqdm python-annoy typer
 pip install panns-inference
 ```
 
