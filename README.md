@@ -8,4 +8,12 @@ conda install -c huggingface -c conda-forge datasets numpy tqdm python-annoy typ
 pip install panns-inference
 ```
 
+## Notebook
 See `audio-similarity.ipynb` for the code to run.
+
+## CLI
+
+```bash
+python audio_similarity.py ensure-index
+python audio_similarity.py find-neighbors 400
+```
